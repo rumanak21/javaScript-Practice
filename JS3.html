@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Functions In JavaScript</title>
+</head>
+
+<body>
+
+    <script>
+        var str = "This is a string";
+        // First occurrence of a substring.
+        var position = str.indexOf("is")
+        // Last occurrence of a substring.
+        var position2 = str.lastIndexOf("is")
+        console.log(str);
+        console.log(position);
+        console.log(position2);
+        // Substring from a string.
+        var substr0 = str.slice(1, 5);
+        var substr1 = str.substring(1, 5);
+        var substr2 = str.substr(1, 5);
+        console.log(substr0);
+        console.log(substr1);
+        console.log(substr2);
+
+        var replaced = str.replace('string' , 'Rumana');
+        console.log(str);
+        console.log(replaced);
+        // Uppercase & lowercase method 
+        console.log(replaced.toUpperCase())
+        console.log(replaced.toLowerCase())
+
+        var newstring = str.concat('Rumana')
+        console.log(newstring)
+
+        // White Spaces 
+        var ws = "      I'm learning     Java    Script     ";
+        console.log(ws);
+        console.log(ws.trim());
+
+        var char2 = str.charAt(3);
+        console.log(char2)
+        console.log(str[12])
+
+         
+    </script>
+</body>
+
+</html>

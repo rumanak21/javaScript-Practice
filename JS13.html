@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Fuctions</title>
+</head>
+
+<body>
+    <div class="container">
+        This is arrow functions
+    </div>
+</body>
+<script>
+    // function greet(){
+    //     console.log('Good Morning');
+    // }
+    // greet();
+
+    // This is Array Fuctions 
+    // let greet=()=>{
+    //     console.log('Good Morning');
+    // }
+    // greet();
+
+    // setTimeout(() => {
+    //     console.log("I'm inside in Array Function with SetTimeout");
+    // }, 3000);
+
+    // setInterval(() => {
+    //     console.log("I'm inside in Array Function with setInterval");
+    // }, 1000);
+
+    // let sum = (a, b) => {
+    //     return a + b;
+    // };
+    // console.log(sum(3,3));
+
+    // Array Function's shortcut 
+    // let sum2=(a,b)=> a+b;
+    // console.log(sum2(8,2));
+
+    // let half= a => a/2;
+    // console.log(half(50));
+
+    // let greet = () => console.log('Good Morning Rumana');
+    // greet();
+
+    // let obj1 = {
+    //     names: ["Rumana", "Rumana2", "Rumana3"],
+    //     speak() {
+    //         this.names.forEach((student) => {
+    //             console.log("Hellooo " + student);
+    //         });
+    //     }
+    // }
+    // obj1.speak();
+    
+    
+    let obj1 = {
+        faq: " How are you? ",
+        names: ["Rumana", "Rumana2", "Rumana3"],
+        speak() {
+            this.names.forEach((student) => {
+                console.log("Hellooo " + student + this.faq);
+            });
+        }
+    }
+    obj1.speak();
+
+
+
+
+</script>
+
+</html>

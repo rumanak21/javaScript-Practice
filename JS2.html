@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript | Strings & String Method</title>
+</head>
+<body>
+    <h1>
+        Using JavaScript | Strings & String Method
+    </h1>
+    <div id="content"></div>
+
+    <script>
+        var name = "Rumana";
+        var age = 25;
+        var message = "She is a good girl.";
+        var temp = `${name}\t: is a quick learner, her age ${age}, \n and ${message}`;
+        console.log(temp);
+
+        var len = temp.length;
+        var len2 = name.length;
+        console.log(`Length of the 'temp' is ${len}`);
+        console.log(`Length of the '${name}' is ${len2}`);
+
+        document.getElementById('content').innerHTML = ' <h2> This is h2 heading from JavaScript. Are you happy? :)</h2> '
+
+    </script>
+</body>
+</html>

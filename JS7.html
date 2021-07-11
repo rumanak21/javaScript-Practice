@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interaction using alert, confirm & prompt</title>
+</head>
+<body>
+    <h1>Hello JavaScript</h1>
+    
+    <script>
+        // Alert: Something alert to user. (Does not return anything.)
+        // alert("This s white page.");
+
+        // Promt: When need user's any input value.
+        // let nam = prompt("What is your name?", "")
+        // console.log(nam)
+
+        // confirm: When need to confirmation from user. 
+        // let deletePost = confirm("Do you really want to delete this post?")
+        // if(deletePost){
+        //     console.log("Your post has been deleted successfully.")
+        // }
+        // else{
+        //     console.log("Your post has not been deleted.")
+        // }
+
+        let age = confirm("Are you 18+?");
+            if(age){
+
+                console.log("You are allowed to browsing.")
+            }
+            else{
+                console.log("You are not allowed to browsing.")
+            }
+    </script>
+</body>
+</html>
